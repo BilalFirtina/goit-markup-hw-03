@@ -240,7 +240,7 @@ header {
 .img-wider {
   width: 360px;
 }
-.box {
+.box-unit {
   padding-top: 32px;
   border: 1px solid #e7e9fc;
   border-top: none;
@@ -248,9 +248,10 @@ header {
 .img-li {
   height: 300px;
 }
-.box li {
+.box-unit p {
   text-align: left;
   text-indent: 16px;
+  margin: 0;
 }
 .white {
   color: var(--team-background);
