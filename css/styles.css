@@ -18,7 +18,7 @@ body {
   font-style: normal;
   line-height: 1.5;
 }
-header {
+.starter {
   display: flex;
   align-items: center;
   gap: 332px;
@@ -196,6 +196,7 @@ header {
 .img {
   padding-bottom: 32px;
   width: 264px;
+  display: block;
 }
 .bold {
   font-size: 20px;
@@ -239,6 +240,7 @@ header {
 }
 .img-wider {
   width: 360px;
+  display: block;
 }
 .box-unit {
   padding-top: 32px;
