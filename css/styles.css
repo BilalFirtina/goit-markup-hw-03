@@ -221,6 +221,8 @@ address li a {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  margin: 0;
+  padding: 0;
 }
 .img-li {
   list-style: none;
@@ -238,4 +240,29 @@ address li a {
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+}
+.intro-box {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+  width: 360px;
+}
+.finisher {
+  padding: 100px 0;
+  background-color: var(--text-color);
+}
+.white {
+  display: inline-block;
+  margin-bottom: 16px;
+  color: var(--white-text-color);
+}
+.footer-text {
+  max-width: 264px;
+  color: var(--white-text-color);
+  margin: 0;
+}
+.footer-container {
+  display: flex;
+  flex-direction: column;
 }
