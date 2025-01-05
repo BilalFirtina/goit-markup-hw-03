@@ -252,6 +252,10 @@ address li a {
   padding: 100px 0;
   background-color: var(--text-color);
 }
+.footer-container {
+  display: flex;
+  flex-direction: column;
+}
 .white {
   display: inline-block;
   margin-bottom: 16px;
@@ -271,8 +275,4 @@ address li a {
   max-width: 264px;
   color: var(--white-text-color);
   margin: 0;
-}
-.footer-container {
-  display: flex;
-  flex-direction: column;
 }
