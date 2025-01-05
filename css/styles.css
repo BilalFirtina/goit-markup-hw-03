@@ -27,13 +27,29 @@ body {
 }
 .logo {
   margin-right: 76px;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  text-decoration: none;
+  color: var(--text-color);
+}
+.logo-web {
+  color: var(--text-web-color);
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
 }
 .container {
   display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  border: 1px solid red;
 }
 .menu-nav {
   display: flex;
@@ -43,11 +59,20 @@ body {
   display: flex;
   gap: 40px;
 }
-header div ul .studio {
+.menu-nav-li {
   list-style: none;
 }
-header div ul .studio a {
+.link {
   padding: 24px 0;
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
 .address-nav {
   display: flex;
@@ -56,6 +81,16 @@ header div ul .studio a {
   display: flex;
   gap: 40px;
   list-style: none;
-  padding-left: 332px;
   align-items: center;
+  margin: 0;
+}
+address li a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--text-color);
 }
