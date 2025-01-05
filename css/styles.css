@@ -33,6 +33,7 @@ body {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  border: 1px solid red;
 }
 .menu-nav {
   display: flex;
@@ -44,6 +45,8 @@ body {
 }
 header div ul .studio {
   list-style: none;
+}
+header div ul .studio a {
   padding: 24px 0;
 }
 .address-nav {
