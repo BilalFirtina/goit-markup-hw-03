@@ -159,8 +159,8 @@ address li a {
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+  width: calc((100% - 72px) / 4);
 }
 .parag-li-h3 {
   margin-bottom: 8px;
-  width: calc((100% - 72px) / 4);
 }
