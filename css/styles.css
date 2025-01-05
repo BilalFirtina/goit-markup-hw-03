@@ -132,16 +132,33 @@ address li a {
   padding: 120px 0;
 }
 .visually-hidden {
-  display: inline-block;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .parag-ul {
   display: flex;
   gap: 24px;
-  flex-direction: column;
 }
 .parag-li {
   width: calc((100% - 72px) / 4);
+  list-style: none;
+  width: 264px;
 }
 .parag {
   margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
