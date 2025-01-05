@@ -15,9 +15,6 @@ body {
 }
 body {
   font-family: "Roboto", serif;
-  font-weight: 400;
-  font-style: normal;
-  line-height: 1.5;
 }
 .img {
   display: block;
@@ -46,7 +43,6 @@ body {
   justify-content: space-between;
 }
 .container {
-  display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -58,6 +54,7 @@ body {
 .menu-nav-ul {
   display: flex;
   gap: 40px;
+  padding: 0;
 }
 .menu-nav-li {
   list-style: none;
@@ -248,15 +245,11 @@ address li a {
   margin-bottom: 8px;
   width: 360px;
 }
-.finisher {
+.finish {
   padding: 100px 0;
   background-color: var(--text-color);
 }
-.footer-container {
-  display: flex;
-  flex-direction: column;
-}
-.white {
+.logo-footer {
   display: inline-block;
   margin-bottom: 16px;
   color: var(--white-text-color);
@@ -269,9 +262,8 @@ address li a {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   text-decoration: none;
-  color: var(--white-text-color);
 }
-.footer-text {
+.text-footer {
   max-width: 264px;
   color: var(--white-text-color);
   margin: 0;
