@@ -42,10 +42,7 @@ body {
   display: flex;
   gap: 40px;
 }
-.menu-nav-list:first-child {
-  padding: 24px 0;
-}
-.menu-nav-list {
+.studio {
   list-style: none;
   padding: 24px 0;
 }
