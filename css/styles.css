@@ -256,6 +256,16 @@ footer .white {
   display: inline-block;
   margin-bottom: 16px;
   color: var(--white-text-color);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  text-decoration: none;
+  color: var(--white-text-color);
 }
 .footer-text {
   max-width: 264px;
