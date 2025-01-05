@@ -148,7 +148,6 @@ address li a {
   gap: 24px;
 }
 .parag-li {
-  width: calc((100% - 72px) / 4);
   list-style: none;
   width: 264px;
 }
@@ -163,4 +162,5 @@ address li a {
 }
 .parag-li-h3 {
   margin-bottom: 8px;
+  width: calc((100% - 72px) / 4);
 }
