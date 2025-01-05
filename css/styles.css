@@ -252,7 +252,7 @@ address li a {
   padding: 100px 0;
   background-color: var(--text-color);
 }
-.white {
+footer div a {
   display: inline-block;
   margin-bottom: 16px;
   color: var(--white-text-color);
