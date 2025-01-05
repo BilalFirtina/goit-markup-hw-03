@@ -146,6 +146,7 @@ address li a {
 .parag-ul {
   display: flex;
   gap: 24px;
+  padding: 0;
 }
 .parag-li {
   list-style: none;
@@ -159,7 +160,8 @@ address li a {
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+  margin: 0;
 }
-.parag-li-h3 {
+.parag-title {
   margin-bottom: 8px;
 }
