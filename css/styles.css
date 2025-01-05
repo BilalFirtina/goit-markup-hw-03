@@ -25,6 +25,9 @@ body {
 .starter {
   border-bottom: 1px solid var(--header-border-bottom);
 }
+.logo {
+  margin-right: 76px;
+}
 .container {
   display: flex;
   width: 1158px;
@@ -39,10 +42,20 @@ body {
   display: flex;
   gap: 40px;
 }
-.menu-nav-li {
+.menu-nav-list:first-child {
   padding: 24px 0;
+}
+.menu-nav-list {
+  list-style: none;
+  padding: 24px 0;
+}
+.address-nav {
+  display: flex;
 }
 .address-ul {
   display: flex;
   gap: 40px;
+  list-style: none;
+  padding-left: 332px;
+  align-items: center;
 }
