@@ -42,7 +42,7 @@ body {
   display: flex;
   gap: 40px;
 }
-.studio {
+header div ul .studio {
   list-style: none;
   padding: 24px 0;
 }
